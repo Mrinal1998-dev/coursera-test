@@ -1,0 +1,81 @@
+#header-nav
+{
+	background-color: grey;
+	border-radius: 0px;
+	border:1px solid black;
+}
+#rest-name
+{
+	color:black;
+	font-size: 30px;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar
+{
+	border:2px solid black;
+}
+.navbar-header button.navbar-toggle:focus,.navbar-header button.navbar-toggle:hover
+{
+	border:2px solid white;
+	background-color: grey;
+}
+.navbar-header button.navbar-toggle:focus .icon-bar,.navbar-header button.navbar-toggle:hover .icon-bar
+{
+	border:2px solid white;
+}
+
+#nav-list a
+{
+	color:black;
+	font-size: 1.4em; 
+}
+#nav-list a:hover 
+{
+	font-size: 1.6em; 
+}
+
+li:nth-child(1),li:nth-child(2)
+{
+	border-bottom: 2px solid black;
+}
+section
+{
+	height: 700px;
+}
+section div
+{
+	height: 700px;
+	background-color: #87CEFA;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+}
+section a,section a:hover
+{
+	color:red;
+}
+
+@media (min-width:769px ) and (max-width:991px )
+{
+  section
+	{
+     margin-bottom:30px;	
+	}
+}
+
+@media (max-width: 768px)
+{
+	section
+	{
+     margin-bottom:15px;	
+	}
+	section div
+   {
+	margin-right: 30px;
+	margin-left:30px;
+   }
+	#collapsable-menu
+	{
+	background-color: #6A5ACD;
+	border:1px solid black;
+    }
+}
